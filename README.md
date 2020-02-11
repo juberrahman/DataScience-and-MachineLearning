@@ -3,8 +3,9 @@ My work in data processing and visualization in R and Python.
 
 
 Reference:
-1. R Graphics Cookbook by Winston Chang.
-2. Using R for Introductory Statistics by John Verzani
-3. Introduction to scientific programming and simulation using R by Jones, Owen.
-4. Python for Everybody by Dr. Charles Severance
-5. Data Scool by Kevin Markham
+1. Data Scientist with Python Track- Datacamp
+2. R Graphics Cookbook by Winston Chang.
+3. Using R for Introductory Statistics by John Verzani
+4. Introduction to scientific programming and simulation using R by Jones, Owen.
+5. Python for Everybody by Dr. Charles Severance
+6. Data Scool by Kevin Markham
