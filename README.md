@@ -1,5 +1,5 @@
 # Data-Processing-and-Visualization
-My work in data processing and visualization using Python and R.
+My data science projects/notebooks using Python and R.
 
 
 Reference:
