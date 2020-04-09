@@ -1,6 +1,14 @@
 # Data Science
-My data science projects/notebooks using Python and R.
-
+My data science projects/notebooks using Python and R. The projects cover the following skills:
+* Importing Data
+* Cleaning and Wrangling Data
+* Data Manipulation and Tranformation
+* Merging Dataframes and dealing with missing values
+* Data Visualization
+* Statistical Inference
+* Extracting Information out of Data
+* Classifcation, clustering and Regression model development
+* Making an automated pipeline for using in an application
 
 Reference:
 1. Applied Data Science, World Quant University and The Data Incubator.
