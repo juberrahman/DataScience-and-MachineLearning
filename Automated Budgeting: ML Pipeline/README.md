@@ -4,7 +4,7 @@ Budgets for schools and school districts are huge, complex, and unwieldy. It's n
 Our task is a multi-class-multi-label classification problem with the goal of attaching canonical labels to the freeform text in budget line items. These labels let ERS understand how schools are spending money and tailor their strategy recommendations to improve outcomes for students, teachers, and administrators.
 
 ## The features in this dataset
-Your goal is to predict the probability that a certain label is attached to a budget line item. Each row in the budget has mostly free-form text features, except for the two below that are noted as float. Any of the fields may or may not be empty
+Our goal is to predict the probability that a certain label is attached to a budget line item. Each row in the budget has mostly free-form text features, except for the two below that are noted as float. Any of the fields may or may not be empty
 
 FTE float - If an employee, the percentage of full-time that the employee works.
 Facility_or_Department - If expenditure is tied to a department/facility, that department/facility.
