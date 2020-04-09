@@ -149,4 +149,4 @@ Pupil Services & Enrichment<br>
 Untracked Budget Set-Aside<br>
 Note, there is a hierarchical relationship for these labels. If a line is marked as Non-Operating in the Operating_Status category, then all of the other labels should be marked as NO_LABEL since ERS does not analyze and compare non-operating budget items.
 
-Reference: Reboot: Box-Plots for Education, HOSTED BY EDUCATION RESOURCE STRATEGIES
+Reference: <b>Reboot: Box-Plots for Education, HOSTED BY EDUCATION RESOURCE STRATEGIES</b>
