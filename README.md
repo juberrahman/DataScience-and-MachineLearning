@@ -6,7 +6,7 @@ My data science projects/notebooks using Python and R. The projects cover the fo
 * Merging Dataframes and dealing with missing values
 * Data Visualization
 * Statistical Inference
-* Extracting Pattern out of Data
+* Extracting Pattern from Data
 * Classifcation, clustering and Regression model development
 * Making an automated pipeline for using in an application
 
