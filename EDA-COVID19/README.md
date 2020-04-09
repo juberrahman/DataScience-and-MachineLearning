@@ -3,7 +3,7 @@
 * People developed pneumonia without a clear cause and for which existing vaccines or treatments were not effective.
 * The virus has shown evidence of human-to-human transmission
 * Transmission rate (rate of infection) appeared to escalate in mid-January 2020
-* As of 30 January 2020, approximately 8,243 cases have been confirmed
+* As of 09 April 2020, approximately 300K cases have been confirmed
 
 
 ## Content
