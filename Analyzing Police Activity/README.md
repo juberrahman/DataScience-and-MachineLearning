@@ -1,4 +1,4 @@
-I have explored the Stanford Open Policing Project dataset and analyzed the impact of gender, weather on police behavior to find answer to the questions below:
+I have explored the Stanford Open Policing Project dataset and analyzed the impact of gender, weather on police behavior to find answers to the questions below:
 
 * Do the genders commit different violations?
 * Does gender affect who gets a ticket for speeding?
