@@ -9,8 +9,8 @@ My data science projects/notebooks using Python and R. The projects cover the fo
 ](https://learn.datacamp.com/courses/machine-learning-with-tree-based-models-in-python)
 * [Supervised Learning with scikit-learn](https://learn.datacamp.com/courses/supervised-learning-with-scikit-learn)
 #### Statistical Inference
-* [Statistical Thinking in Python (Part 2)](https://learn.datacamp.com/courses/statistical-thinking-in-python-part-1)
-* [Statistical Thinking in Python (Part 1)](https://learn.datacamp.com/courses/statistical-thinking-in-python-part-2)
+* [Statistical Thinking in Python (Part 2)](https://learn.datacamp.com/courses/statistical-thinking-in-python-part-2)
+* [Statistical Thinking in Python (Part 1)](https://learn.datacamp.com/courses/statistical-thinking-in-python-part-1)
 #### Data Analysis and Visualization 
 * [Case Study: Analyzing Police Activity with pandas](https://learn.datacamp.com/courses/analyzing-police-activity-with-pandas)
 * [Exploratory Data Analysis in Python](https://learn.datacamp.com/courses/exploratory-data-analysis-in-python)
