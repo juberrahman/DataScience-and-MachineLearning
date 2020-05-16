@@ -4,6 +4,8 @@ When a disaster strikes, the World Food Programme (WFP), as well as the other hu
 
 What if we could use past disaster data to help them know what is needed?
 
+I worked as a Machine Learning Engineer at this project and then got promoted to Lead Machine Learning Engineer due to contributions.
+
 read more at [Omdena Website](https://omdena.com/projects/ai-disaster-response)
 
 ## Summary of Materials and Methods:
