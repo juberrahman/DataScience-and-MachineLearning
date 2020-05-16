@@ -12,23 +12,23 @@ My data science projects/notebooks using Python and R. The projects cover the fo
 * [Statistical Thinking in Python (Part 2)](https://github.com/juberrahman/Publications-Certifications-and-Test-Scores/blob/master/Certifications/pdfs/certificate_StatisticalThinkinginPython.pdf)
 * [Statistical Thinking in Python (Part 1)](https://github.com/juberrahman/Publications-Certifications-and-Test-Scores/blob/master/Certifications/pdfs/certificate_StatisticalThinkingPart1.pdf)
 #### Data Analysis and Visualization 
-* [Case Study: Analyzing Police Activity with pandas](https://github.com/juberrahman/Publications-Certifications-and-Test-Scores/blob/master/Certifications/pdfs/certificate_AnalyzingPoliceActivitywithPandas.pdf)
-* [Exploratory Data Analysis in Python](https://github.com/juberrahman/Publications-Certifications-and-Test-Scores/blob/master/Certifications/pdfs/certificate_ExploratoryDataAnalysis.pdf)
-* [Data Visualization with Seaborn](https://github.com/juberrahman/Publications-Certifications-and-Test-Scores/blob/master/Certifications/pdfs/certificate_IntermediateDataVisualizationwithSeaborn.pdf)
-* [Data Visualization with Matplotlib](https://github.com/juberrahman/Publications-Certifications-and-Test-Scores/blob/master/Certifications/pdfs/certificate_DataVisualizationWithMatplotlib.pdf)
+* [Case Study: Analyzing Police Activity with pandas](https://learn.datacamp.com/courses/analyzing-police-activity-with-pandas)
+* [Exploratory Data Analysis in Python](https://learn.datacamp.com/courses/exploratory-data-analysis-in-python)
+* [Data Visualization with Seaborn](https://learn.datacamp.com/courses/intermediate-data-visualization-with-seaborn)
+* [Data Visualization with Matplotlib](https://learn.datacamp.com/courses/introduction-to-data-visualization-with-matplotlib)
 
 #### Data Manipulation with Python
-* [Working with Dates and Times in Python](https://github.com/juberrahman/Publications-Certifications-and-Test-Scores/blob/master/Certifications/pdfs/certificate_WorkingWithdateandTimes.pdf)
-* [Merging DataFrames with pandas](https://github.com/juberrahman/Publications-Certifications-and-Test-Scores/blob/master/Certifications/pdfs/certificate_MergingDataFrameswithpandas.pdf)
-* [Manipulating DataFrames with pandas](https://github.com/juberrahman/Publications-Certifications-and-Test-Scores/blob/master/Certifications/pdfs/certificate_ManipulatingDataFrameswithPandas.pdf)
+* [Working with Dates and Times in Python](https://learn.datacamp.com/courses/working-with-dates-and-times-in-python)
+* [Merging DataFrames with pandas](https://learn.datacamp.com/courses/merging-dataframes-with-pandas)
+* [Manipulating DataFrames with pandas](https://learn.datacamp.com/courses/data-manipulation-with-pandas)
 #### Importing & Cleaning Data
-* [Cleaning Data in Python](https://github.com/juberrahman/Publications-Certifications-and-Test-Scores/blob/master/Certifications/pdfs/certificate_CleaningDatainPython.pdf)
-* [Intermediate Importing Data in Python](https://github.com/juberrahman/Publications-Certifications-and-Test-Scores/blob/master/Certifications/pdfs/certificate_IntermediateImportingData.pdf)
-* [Introduction to Importing Data in Python](https://github.com/juberrahman/Publications-Certifications-and-Test-Scores/blob/master/Certifications/pdfs/certificate_IntroductionImportingdata.pdf)
+* [Cleaning Data in Python](https://learn.datacamp.com/courses/cleaning-data-in-python)
+* [Intermediate Importing Data in Python](https://learn.datacamp.com/courses/intermediate-importing-data-in-python)
+* [Introduction to Importing Data in Python](https://learn.datacamp.com/courses/introduction-to-importing-data-in-python)
 #### Python Programming
-* [Python Data Science Toolbox (Part 2)](https://github.com/juberrahman/Publications-Certifications-and-Test-Scores/blob/master/Certifications/pdfs/certificate_PythonDataScientistToolbox.pdf)
-* [Python Data Science Toolbox (Part 1)](https://github.com/juberrahman/Publications-Certifications-and-Test-Scores/blob/master/Certifications/pdfs/certificate_PythonDataScienceToolBox1.pdf)
-* [Intermediate Python](https://github.com/juberrahman/Publications-Certifications-and-Test-Scores/blob/master/Certifications/pdfs/certificate_IntermediatePython.pdf)
+* [Python Data Science Toolbox (Part 2)](https://learn.datacamp.com/courses/python-data-science-toolbox-part-2)
+* [Python Data Science Toolbox (Part 1)](https://learn.datacamp.com/courses/python-data-science-toolbox-part-1)
+* [Intermediate Python](https://learn.datacamp.com/courses/intermediate-python)
 * [Introduction to Python](https://learn.datacamp.com/courses/intro-to-python-for-data-science)
 
 My achieved certificates for the above courses can be found [here](https://github.com/juberrahman/Publications-Certifications-and-Test-Scores/tree/master/Certifications)
