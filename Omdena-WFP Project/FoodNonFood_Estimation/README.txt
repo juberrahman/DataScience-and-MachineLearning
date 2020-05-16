@@ -1,1 +1,1 @@
-This folder will contain a smartphone app developed in android for estimating food and non-food items from the affected population. It will also have the supporting documentation.
+This folder has a python application for estimating food and non-food items from the affected population. It  also has the supporting documentation.
