@@ -1,0 +1,10 @@
+Calculating the energy value of a ration – an example
+
+ITEM AND QUANTITY 	 KCAL/100g  	 CALCULATION 	 	ENERGY (kcal)
+400 g maize meal	360		400 x 360 / 100		1,440
+60 g beans		335		60 x 335 / 100		  201
+25 g vegetable oil	885		25 x 885 / 100		  222
+50 g CSB		380		50 x 380 / 100		  190
+15 g sugar		400		15 x 400 / 100		   60
+05 g salt		0		0			    0	
+							     TOTAL: 2,113

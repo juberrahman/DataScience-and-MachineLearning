@@ -1,0 +1,6 @@
+World Development Indicators (WDI) is the World Bank’s premier compilation of international statistics on global development. Drawing from officially recognized sources and including national, regional, and global estimates, the WDI provides access to approximately 1,600 indicators for 217 economies, with some time series extending back more than 50 years. The database helps users find information related to development, both current and historical.[1] The topics covered in the WDI range from poverty, health, and demographics to GDP, trade, and the environment.
+
+The World Development Indicators website provides access to data as well as information about data coverage, curation, and methodologies, and allows users to discover what type of indicators are available, how they are collected, and how they can be visualized to analyze development trends.
+
+
+The source website can be accessed at https://data.worldbank.org/indicator?tab=featured
