@@ -29,7 +29,7 @@ My data science projects/notebooks using Python and R. The projects cover the fo
 * [Python Data Science Toolbox (Part 2)](https://github.com/juberrahman/Publications-Certifications-and-Test-Scores/blob/master/Certifications/pdfs/certificate_PythonDataScientistToolbox.pdf)
 * [Python Data Science Toolbox (Part 1)](https://github.com/juberrahman/Publications-Certifications-and-Test-Scores/blob/master/Certifications/pdfs/certificate_PythonDataScienceToolBox1.pdf)
 * [Intermediate Python](https://github.com/juberrahman/Publications-Certifications-and-Test-Scores/blob/master/Certifications/pdfs/certificate_IntermediatePython.pdf)
-* [Introduction to Python](https://github.com/juberrahman/Publications-Certifications-and-Test-Scores/blob/master/Certifications/pdfs/certificate_IntroductionToPython.pdf)
+* [Introduction to Python](https://learn.datacamp.com/courses/intro-to-python-for-data-science)
 
 Reference:
 1. Applied Data Science, World Quant University and The Data Incubator.
