@@ -4,6 +4,8 @@ When a disaster strikes, the World Food Programme (WFP), as well as the other hu
 
 What if we could use past disaster data to help them know what is needed?
 
+read more at [Omdena Website](https://omdena.com/projects/ai-disaster-response)
+
 ## Summary of Materials and Methods:
 * Dataset used: merged dataset version 14 (OUTPUT_WBI_exposer_cyclones_v14.csv)
 * Data processing : filling missing values, encoding categorical features, dealing skewed distribution
