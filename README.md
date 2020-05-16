@@ -6,6 +6,7 @@ My data science projects/notebooks using Python and R. The projects cover the fo
 * [Cluster Analysis in Python
 ](https://learn.datacamp.com/courses/cluster-analysis-in-python)
 * [Unsupervised Learning in Python](https://learn.datacamp.com/courses/unsupervised-learning-in-python)
+* [Hyperparameter Tuning in Python](https://learn.datacamp.com/courses/hyperparameter-tuning-in-python)
 * [Machine Learning with Tree-Based Models in Python
 ](https://learn.datacamp.com/courses/machine-learning-with-tree-based-models-in-python)
 * [Linear Classifers in Python](https://learn.datacamp.com/courses/linear-classifiers-in-python)
