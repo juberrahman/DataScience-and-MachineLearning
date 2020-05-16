@@ -1,16 +1,16 @@
 # Data Science
 My data science projects/notebooks using Python and R. The projects cover the following skills:
 #### Machine Learning
-* [Case Study: School Budgeting with Machine Learning in Python](https://github.com/juberrahman/Publications-Certifications-and-Test-Scores/blob/master/Certifications/pdfs/certificate_CaseStudy-SchoolBudgeting.pdf)
+* [Case Study: School Budgeting with Machine Learning in Python](https://learn.datacamp.com/courses/case-study-school-budgeting-with-machine-learning-in-python)
 * [Cluster Analysis in Python
-](https://github.com/juberrahman/Publications-Certifications-and-Test-Scores/blob/master/Certifications/pdfs/certificate_ClusterAnalysisinPython.pdf)
-* [Unsupervised Learning in Python](https://github.com/juberrahman/Publications-Certifications-and-Test-Scores/blob/master/Certifications/pdfs/certificate_UnsupervisedLearning.pdf)
+](https://learn.datacamp.com/courses/cluster-analysis-in-python)
+* [Unsupervised Learning in Python](https://learn.datacamp.com/courses/unsupervised-learning-in-python)
 * [Machine Learning with Tree-Based Models in Python
-](https://github.com/juberrahman/Publications-Certifications-and-Test-Scores/blob/master/Certifications/pdfs/certificate_MachineLearningwithTreeBasedModels.pdf)
-* [Supervised Learning with scikit-learn](https://github.com/juberrahman/Publications-Certifications-and-Test-Scores/blob/master/Certifications/pdfs/certificate_SupervisedLearningwithScikitlearn.pdf)
+](https://learn.datacamp.com/courses/machine-learning-with-tree-based-models-in-python)
+* [Supervised Learning with scikit-learn](https://learn.datacamp.com/courses/supervised-learning-with-scikit-learn)
 #### Statistical Inference
-* [Statistical Thinking in Python (Part 2)](https://github.com/juberrahman/Publications-Certifications-and-Test-Scores/blob/master/Certifications/pdfs/certificate_StatisticalThinkinginPython.pdf)
-* [Statistical Thinking in Python (Part 1)](https://github.com/juberrahman/Publications-Certifications-and-Test-Scores/blob/master/Certifications/pdfs/certificate_StatisticalThinkingPart1.pdf)
+* [Statistical Thinking in Python (Part 2)](https://learn.datacamp.com/courses/statistical-thinking-in-python-part-1)
+* [Statistical Thinking in Python (Part 1)](https://learn.datacamp.com/courses/statistical-thinking-in-python-part-2)
 #### Data Analysis and Visualization 
 * [Case Study: Analyzing Police Activity with pandas](https://learn.datacamp.com/courses/analyzing-police-activity-with-pandas)
 * [Exploratory Data Analysis in Python](https://learn.datacamp.com/courses/exploratory-data-analysis-in-python)
