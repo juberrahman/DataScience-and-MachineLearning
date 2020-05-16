@@ -1,6 +1,7 @@
 # Data Science
 My data science projects/notebooks using Python and R. The projects cover the following skills:
 #### Machine Learning
+* [Ensemble Methods in Python](https://learn.datacamp.com/courses/ensemble-methods-in-python)
 * [Extreme Gradient Boosting with XGBoost](https://learn.datacamp.com/courses/extreme-gradient-boosting-with-xgboost)
 * [Case Study: School Budgeting with Machine Learning in Python](https://learn.datacamp.com/courses/case-study-school-budgeting-with-machine-learning-in-python)
 * [Cluster Analysis in Python
