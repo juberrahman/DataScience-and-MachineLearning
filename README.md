@@ -1,5 +1,5 @@
 # Data Science
-My data science projects/notebooks using Python and R. The projects cover the following skills:
+My data science projects/notebooks using Python and R. Some of the projects e.g. [Omdena-WFP](https://github.com/juberrahman/Data-Science-Projects/tree/master/Omdena-WFP%20Project) are meant to develop novel methods for developing solution to a real world problem. The projects cover the following skills:
 #### Machine Learning
 * [Ensemble Methods in Python](https://learn.datacamp.com/courses/ensemble-methods-in-python)
 * [Extreme Gradient Boosting with XGBoost](https://learn.datacamp.com/courses/extreme-gradient-boosting-with-xgboost)
