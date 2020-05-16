@@ -28,6 +28,7 @@ My data science projects/notebooks using Python and R. The projects cover the fo
 * [Intermediate Importing Data in Python](https://learn.datacamp.com/courses/intermediate-importing-data-in-python)
 * [Introduction to Importing Data in Python](https://learn.datacamp.com/courses/introduction-to-importing-data-in-python)
 #### Python Programming
+* [Object Oriented Programming in Python](https://learn.datacamp.com/courses/object-oriented-programming-in-python)
 * [Python Data Science Toolbox (Part 2)](https://learn.datacamp.com/courses/python-data-science-toolbox-part-2)
 * [Python Data Science Toolbox (Part 1)](https://learn.datacamp.com/courses/python-data-science-toolbox-part-1)
 * [Intermediate Python](https://learn.datacamp.com/courses/intermediate-python)
