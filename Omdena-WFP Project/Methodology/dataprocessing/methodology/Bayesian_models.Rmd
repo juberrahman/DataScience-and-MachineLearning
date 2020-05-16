@@ -1,0 +1,199 @@
+---
+title: 'AI for Disaster Response: Improving Emergency Management During Cyclones '
+author: "Juber"
+date: "4/5/2020"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## EDA and Baseline models Using Bayesian Regression
+
+```{r}
+# Load packages
+library(dplyr)
+library(ggplot2)
+library(e1071)
+# Load and inspect the data
+df=read.csv('/Users/Juber/Desktop/Master_1068.csv')
+head(df)
+str(df)
+
+```
+## visualize the distribution of target variable
+
+```{r}
+
+ggplot(df,aes(Total.Affected.))+geom_histogram()
+```
+
+```{r}
+# check the skewness value
+skewness(df$Total.Affected.)
+```
+
+### comment : highly skewed
+```{r}
+# check the distribution of log-coverted target 
+ggplot(df,aes(log1p(Total.Affected.)))+geom_histogram(bins=40)
+# comment: log conversion reduced the skewness
+```
+
+
+```{r}
+#select the numeric features
+numeric_features<-df%>%select_if(is.numeric)
+#cat_features<-df%>%select_if(negate(is.numeric))
+anyNA(numeric_features)
+#anyNA(cat_features)
+print(names(which(sapply(numeric_features, anyNA))))
+```
+# deal with missing data
+
+```{r}
+library(DMwR)
+knnOutput <- knnImputation(df[, !names(df) %in% "TOTAL_DAMAGE_.000.."])  # perform knn imputation.
+anyNA(knnOutput)
+```
+
+```{r}
+# check the influence of selected categorical predictors- cyclone category in simpson scale
+#ggplot(df,aes(y=log1p(Total.Affected.),fill=as_factor(USA_SSHS)))+geom_boxplot()
+```
+### Comment: Hmm.. cyclone category shows an impact as expected, higher scale higher impact
+Saffir-Simpson Hurricane Scale information based on the wind speed provided by the US agency
+wind speed (US agencies provide 1-minute wind speeds)
+-5 = Unknown [XX]
+-4 = Post-tropical [EX, ET, PT]
+-3 = Miscellaneous disturbances [WV, LO, DB, DS, IN, MD]
+-2 = Subtropical [SS, SD]
+Tropical systems classified based on wind speeds [TD, TS, HU, TY,, TC, ST, HR]
+ -1 = Tropical depression (W<34)
+ 0 = Tropical storm [34<W<64]
+ 1 = Category 1 [64<=W<83]
+ 2 = Category 2 [83<=W<96]
+ 3 = Category 3 [96<=W<113]
+ 4 = Category 4 [113<=W<137]
+ 5 = Category 5 [W >= 137]
+```{r}
+# check the influence of selected categorical predictors- cyclone basin
+ggplot(df,aes(y=log1p(Total.Affected.),fill=BASIN))+geom_boxplot()
+```
+### NI- basin seems slightly more dangerous 
+Basins info:
+NA - North Atlantic
+EP - Eastern North Pacific
+WP - Western North Pacific
+NI - North Indian
+SI - South Indian
+SP - Southern Pacific
+SA - South Atlantic
+MM - Missing 
+```{r}
+# what about sub-basin?
+ggplot(df,aes(y=log1p(Total.Affected.),fill=SUBBASIN))+geom_boxplot()
+```
+### some of them are different than others
+MM - missing - no sub basin for this basin (no subbasins provided for WP, SI)
+CS - Caribbean Sea
+GM - Gulf of Mexico
+CP - Central Pacific
+BB - Bay of Bengal
+AS - Arabian Sea
+WA - Western Australia
+EA - Eastern Australia
+```{r}
+# what about nature?
+ggplot(df,aes(y=log1p(Total.Affected.),fill=NATURE))+geom_boxplot()
+
+```
+### Does not seem making much difference
+```{r}
+# let's first check a linear regression model
+lm.model = lm(log1p(Total.Affected.) ~ X96KN_POP+X64KN_POP+X34KN_POP+V_LAND_KN+USA_SSHS+SUBBASIN+STORM_SPD_MEAN+PRES_CALC_MEAN+TOTAL_HRS, data = df)
+summary(lm.model)
+```
+```{r}
+# check a tidy-version of the summary
+#tidy(lm.model)
+```
+## update regression model
+```{r}
+lm.model2 = lm(log1p(Total.Affected.) ~ X96KN_POP+X64KN_POP+X34KN_POP+V_LAND_KN+USA_SSHS+STORM_SPD_MEAN, data = df)
+summary(lm.model2)
+```
+## Comment : We found some important predictors but the overall model performance is poor
+```{r}
+# let's try with imputed dataset
+lm.model3 = lm(log1p(Total.Affected.) ~ X96KN_POP+X64KN_POP+X34KN_POP+V_LAND_KN+USA_SSHS+SUBBASIN+STORM_SPD_MEAN+PRES_CALC_MEAN+TOTAL_HRS, data = knnOutput)
+summary(lm.model3)
+
+```
+## comment: No improvement with imputation
+```{r}
+# let's try with Bayesian regression
+library(rstanarm)
+# Create the model here
+stan_model <- stan_glm(log1p(Total.Affected.) ~ X96KN_POP+X64KN_POP+X34KN_POP+V_LAND_KN+USA_SSHS+SUBBASIN+STORM_SPD_MEAN+PRES_CALC_MEAN+TOTAL_HRS, data = df)
+# Produce the summary
+summary(stan_model)
+# Print a tidy summary of the coefficients
+#tidy(stan_model)
+```
+## Good news that the model converged
+```{r}
+prior_summary(stan_model)
+
+# Save the variance of residulas
+ss_res <- var(residuals(stan_model))
+
+# Save the variance of fitted values
+ss_fit <- var(fitted(stan_model))
+
+# Calculate the R-squared
+1 - (ss_res / (ss_res + ss_fit))
+```
+### check the posterior dist
+```{r}
+# Calculate the posterior distribution of the R-squared
+r2_posterior <- bayes_R2(stan_model)
+
+# Make a histogram of the distribution
+hist(r2_posterior)
+```
+```{r}
+# Create density comparison
+pp_check(stan_model, "dens_overlay")
+
+# Create scatter plot of means and standard deviations
+pp_check(stan_model, "stat_2d")
+```
+## The predicted posterior distributions match the actual distribution closely, hurrah
+## make predictions on new data
+```{r}
+# Create data frame of new data
+predict_data <- data.frame(X96KN_POP=98760897036 ,X64KN_POP=348897187562 ,X34KN_POP=2207674387400,V_LAND_KN=8438317,USA_SSHS=-1,SUBBASIN='NAm',STORM_SPD_MEAN=154.60,PRES_CALC_MEAN=12.95652174,TOTAL_HRS=6)
+
+# Create posterior predictions for the cyclone in test
+new_predictions <- posterior_predict(stan_model, newdata = predict_data)
+
+# Print first 10 predictions for the new data
+new_predictions[1:10,]
+
+# Print a summary of the posterior distribution of affected no. of people predicted 
+summary(new_predictions[, 1])
+
+new_predictions <- as.data.frame(new_predictions)
+colnames(new_predictions) <- "Cyclone"
+
+# print formated data
+#head(new_predictions)
+# plot
+ggplot(new_predictions, aes(x = Cyclone)) +	geom_density()+geom_vline(xintercept = 193000,linetype="dotted", 
+                color = "blue", size=1.5)+geom_label(label='Actual Affected',x=193000, y=0)
+```
+## Comment: the model captured the true value of affected people, but overestimating if you consider mean or median
