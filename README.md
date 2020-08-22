@@ -36,8 +36,6 @@ My data science projects/notebooks using Python and R. Some of the projects e.g.
 * [Intermediate Python](https://learn.datacamp.com/courses/intermediate-python)
 * [Introduction to Python](https://learn.datacamp.com/courses/intro-to-python-for-data-science)
 
-My achieved certificates for the above courses can be found [here](https://github.com/juberrahman/Publications-Certifications-and-Test-Scores/tree/master/Certifications)
-
 Reference:
 1. Applied Data Science, World Quant University and The Data Incubator.
 2. Data Scientist with Python Career Track- Datacamp
